@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: aqua;
+}
+
+body{
+    background-image: linear-gradient(white, #F7E8FF);
+    height: 100vh;
 }
 
 li, a, button{
@@ -39,9 +45,58 @@ nav li{
  
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
 
+.title{
+    text-align: center;
+    font-weight: 100;
+    padding-top: 90px;
+    font-size: 40px;
+}
 
+.paragraph{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.button1{
+    color: white;
+    background-color: #540BAA;
+    border: none;
+    margin-top: 30px;
+    border-radius: 53px;
+    padding: 10px 80px;
+}
+
+.para2{
+    text-decoration: underline;
+    padding-top: 45px;
+}
+
+.pics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    object-fit: fill;
+}
+
+.image-3{
+    width: 200px;
+    max-width: 400px;
+    height: 200px;
+    bottom: 400px;
+}
+
+.image-4{
+    width: 200px;
+    height: auto;
+
+}
 /* nav{
     text-align: center;
     display: inline;
